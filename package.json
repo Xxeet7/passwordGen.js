@@ -1,16 +1,25 @@
 {
   "name": "passwordgen",
-  "version": "1.0.0",
+  "version": "V1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest "
+  },
+  "bin": {
+    "passwordgen": "./index.js",
+    "info": "./index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "commander": "^14.0.0"
+    "clipboardy": "^4.0.0",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
   }
 }
